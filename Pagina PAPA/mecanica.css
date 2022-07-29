@@ -1,0 +1,483 @@
+*{
+	font-family: 'Rubik', sans-serif;
+}
+body{
+	background: #07133A;
+}
+h1{
+	display: flex;
+	color: white;
+	background: #E00000;
+	padding: 0.8em;
+	padding-top: 10px;
+	padding-left: 3em;
+	font-size: 1.9em;
+	position: relative;
+}
+.header-h2{
+	display: flex;
+	color: white;
+	position: absolute;
+	top: 38px;
+	left: 150px;	
+}
+
+.barra{
+	position: absolute;
+	left: 880px;
+	top: 20px;
+	font-size: 1.4em;
+}
+
+li{
+	display: flex;
+	display: inline-block;
+	padding-left: 10;
+}
+
+.nav__ul-li{
+
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+	padding: 5px 7px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.nav__ul-li:hover{
+	background-color: #FFB34D;
+}
+
+.section__div-a:link{ 
+	color: #BDC3C7;
+}
+.section__div-a:visited{
+	color: red;
+}
+
+.coche{
+	position: absolute;
+	width:65px;
+	height:65px; 
+	top: 0px;
+	left: 1.5em;
+}
+
+.caja__coche_naranja{
+	display: flex;
+	width: 1349px;
+	height: 500px;
+	position: absolute;
+	top: 69px;
+	z-index: -1;
+
+}
+.caja__coche_naranja img{
+	display: flex;
+	top: 50px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.section__div-servicio{
+	display: flex;
+	position: absolute;
+	top: 700px;
+	font-size: 40px;
+	flex-wrap: wrap;
+}
+
+.section__h2{
+	position: absolute;
+	left: 30%;
+	top: 150px;
+	color: white;
+	font-size: 3em;
+}
+.section__p{
+	padding: 20px;
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	left: 15%;
+	top: 250px;
+}
+.section__h3{
+	position: absolute;
+	left: 35%;
+	top:600px;
+	font-size: 3em;
+	color: white;
+}
+
+.section__div-1{
+position: absolute;
+left: 50px;
+width: 585px;
+height: 170px;
+background:  #C90606;
+transition: 0.5s;
+}
+
+.section__div-1:hover{
+	background: #07133A;
+}
+.section__div-1 p{
+	color: white;
+	transition: 0.5s;
+}
+.section__div-1:hover p{
+	color: #F36E00;
+}
+.calidad{
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 40%;
+}
+
+.section__div-2{
+position: absolute;
+background: #C90606;
+width: 585px;
+height: 170px;
+left: 730px;
+color: white;
+}
+.mecanico{
+	position: absolute;
+	width: 60px;
+	left: 40%;
+	top: 80px;
+}
+.section__div-2:hover{
+	background: #07133A;
+	transition: 0.5s;
+}
+.section__div-2 p{
+	transition: 0.5s;
+}
+.section__div-2:hover p{
+	color:  #F36E00;
+}
+
+
+.section__div-3{
+position: absolute;
+color: white;
+padding-left: 15px;
+width: 585px;
+height: 170px;
+top: 250px;
+left: 70px;
+background: #C90606;
+transition: 0.5s;
+}
+.exp{
+	position: absolute;
+	width: 60px;
+	left: 40%;
+	top: 80px;
+}
+.section__div-3:hover{
+background: #07133A;
+}
+.section__div-3:hover p{
+color:  #F36E00;
+}
+.section__div-3 p{
+transition: 0.5s;
+}
+
+.section__div-4{
+color: white;
+position: absolute;
+padding-left: 150px;
+width: 585px;
+height: 170px;
+top: 250px;
+left: 730px;
+background: #C90606;
+}
+.dinero{
+	position: absolute;
+	width: 65px;
+	left: 40%;
+	top: 80px;
+}
+.section__div-4:hover{
+background: #07133A;
+}
+.section__div-4 p{
+transition: 0.5s;
+}
+.section__div-4:hover p{
+	color: #F36E00;
+}
+.section__div-5{
+color: white;
+position: absolute;
+padding-left: 100px;
+width: 585px;
+height: 170px;
+top: 500px;
+left: 70px;
+background: #C90606;
+transition: 0.5s;
+}
+.Personal{
+	position: absolute;
+	width: 65px;
+	left: 40%;
+	top: 80px;
+}
+.section__div-5:hover{
+background: #07133A;
+}
+.section__div-5 p{
+transition: 0.5s;
+}
+.section__div-5:hover p{
+	color: #F36E00;
+}
+
+.section__div-6{
+position: absolute;
+color: white;
+padding-left: 110px;
+width: 585px;
+height: 170px;
+top: 500px;
+left: 730px;
+background: #C90606;
+transition: 0.5s;
+}
+
+.aceite{
+	position: absolute;
+	width: 65px;
+	left: 40%;
+	top: 80px;
+}
+.section__div-6:hover{
+background: #07133A;
+}
+.section__div-6 p{
+transition: 0.5s;
+}
+.section__div-6:hover p{
+	color: #F36E00;
+}
+
+.section__div-7{
+position: absolute;
+color: white;
+padding-left: 150px;
+width: 585px;
+height: 170px;
+top: 750px;
+left: 70px;
+background: #C90606;
+transition: 0.5s;
+}
+.carburador{
+	width: 150px;
+	position: absolute;
+	left: 33%;
+	top: 60px;
+}
+.section__div-7:hover{
+background: #07133A;
+}
+.section__div-7 p{
+transition: 0.5s;
+}
+.section__div-7:hover p{
+	color: #F36E00;
+}
+
+.section__div-8{
+position: absolute;
+color: white;
+padding-left: 35px;
+width: 585px;
+height: 170px;
+top: 750px;
+left: 730px;
+background: #C90606;
+transition: 0.5s;
+}
+.computadora{
+	position: absolute;
+	width: 65px;
+	left: 40%;
+	top: 70px;
+}
+
+.section__div-8:hover{
+background: #07133A;
+}
+.section__div-8 p{
+transition: 0.5s;
+}
+.section__div-8:hover p{
+	color: #F36E00;
+}
+.section__div-h2{
+	font-size: 40px;
+	display: inline;
+	background: #F07800;
+	padding: 20px;
+	padding-left: 350px;
+	position: relative;
+	top: 1600px;
+}
+.section__div-h2 p{
+	position: relative;
+	background: #F07800;
+	display: inline;
+	right: 150px;
+}
+.section__div-h2:hover{
+	background: #BD36D3;
+	transition: 0.9s;
+}
+
+.footer__div{
+	position: relative;
+	display: inline;
+	top: 1600px;
+	background: #F07800;
+	padding-left: 30px;
+	padding: 10px;
+	height: 130px;
+}
+.footer__div p{
+	font-size: 40px;
+	position: absolute;
+}
+.Whats{
+	position: relative;
+	width: 50px;
+	right: 120px;
+	top: 45px;
+}
+.footer__div h3{
+	display: inline;
+	position: relative;
+	top: 26px;
+	left: 50px;
+}
+
+@media only screen and (max-width: 600px){
+	.barra{
+		display: none;
+	}
+	.section__div-servicio{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	h1{
+		font-size: 1em;
+	}
+	.header-h2{
+		font-size: 0.8em;
+		top: 25px;
+		left: 80px;
+	}
+	.caja__coche_naranja{
+		width: 360px;
+	}
+	.coche{
+		left: 5px;
+		top: -5px;
+		width: 45px;
+		height: 45px;
+	}
+	.section__h3{
+		left: 0px;
+		top: 570px;
+	}
+	.section__div-1{
+		width: 300px;
+		left: 0px;
+		font-size: 25px;
+	}
+	.section__div-2{
+		width: 300px;
+		left: 0px;
+		top: 200px;
+		font-size: 25px;
+	}
+	.section__div-3{
+		width: 300px;
+		left: 0px;
+		top: 350px;
+		font-size: 25px;
+	}
+	.section__div-4{
+		width: 300px;
+		left: 0px;
+		font-size: 25px;
+	}
+	.section__div-5{
+		width: 300px;
+		left: 0px;
+		font-size: 25px;
+	}
+	.section__div-6{
+		width: 300px;
+		left: 0px;
+		font-size: 25px;
+	}
+	.section__div-7{
+		width: 300px;
+		font-size: 25px;
+		left: 0px;
+	}
+	.section__div-8{
+		width: 300px;
+		font-size: 25px;
+		left: 0px;
+		top: 1000px;
+	}
+	.section__div-h2{
+		top: 1800px;
+		padding: 0px;
+		font-size: 15px;
+		width: 360px;
+	}
+	.footer__div{
+		top: 1800px;
+	}
+	.section__div-h2 p{
+		right: 0px;
+		font-size: 12px;
+		width: 40px;
+	}
+	.Whats{
+		width: 10%;	
+	}
+	.footer__div p{
+		font-size: 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
